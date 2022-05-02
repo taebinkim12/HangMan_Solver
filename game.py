@@ -44,7 +44,7 @@ def progress_game():
 
     success = num_crct_guess >= answer_len
     if not success:
-        print("SUCKER")
+        print("FAILED")
     else:
         print("CONGRATULATION")
         
